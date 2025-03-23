@@ -54,7 +54,8 @@ with open('_eo_scale_yourself.png', 'rb') as image_file:
     encoded_logo = base64.b64encode(image_file.read()).decode('ascii')
 
 # Initialize the Dash app
-app = Dash(__name__, title='Hospital Dashboard', suppress_callback_exceptions=True)
+app = Dash(__name__, title='eo  Dashboard', 
+suppress_callback_exceptions=True)
 
 # Define the layout
 app.layout = html.Div([
