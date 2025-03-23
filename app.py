@@ -9,7 +9,7 @@ import random
 import string
 
 # Read the data
-df = pd.read_excel('/home/ubuntu/upload/Complete_Hospital_Locations_and_Sizes.xlsx')
+df = pd.read_excel('Complete_Hospital_Locations_and_Sizes.xlsx')
 
 # Process the data
 # Fill missing size categories with 'N/A'
@@ -50,7 +50,7 @@ def random_letter():
 df['Initial'] = [random_letter() for _ in range(len(df))]
 
 # Encode the logo
-with open('/home/ubuntu/upload/_eo_scale_yourself.png', 'rb') as image_file:
+with open('_eo_scale_yourself.png', 'rb') as image_file:
     encoded_logo = base64.b64encode(image_file.read()).decode('ascii')
 
 # Initialize the Dash app
