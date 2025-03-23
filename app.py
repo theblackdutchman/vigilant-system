@@ -70,7 +70,7 @@ app.layout = html.Div([
             html.Div([
                 html.Img(src=f'data:image/png;base64,{encoded_logo}', 
                          style={'height': '30px', 'marginRight': '10px'}),
-                html.H2('AI Insights', style={'color': 'white', 'margin': '0'})
+                html.H2('éo Insights', style={'color': 'white', 'margin': '0'})
             ], style={'display': 'flex', 'alignItems': 'center', 'padding': '20px 15px', 
                       'borderBottom': '1px solid rgba(255,255,255,0.1)'}),
             
@@ -214,10 +214,10 @@ def render_page_content(page):
 def render_summary_page():
     return html.Div([
         # Page title
-        html.H1('Hospital Dashboard', style={'margin': '0 0 20px 0'}),
+        html.H1('éo business dev dashboard', style={'margin': '0 0 20px 0'}),
         
         # Description
-        html.P('A comprehensive overview of hospitals across the United States.', 
+        html.P('A comprehensive overview of prospects across the United States.', 
                style={'marginBottom': '20px'}),
         
         # Top cards
